@@ -61,8 +61,6 @@ describe('Basic user flow for Website', () => {
     resetInnerText = await button.getProperty('innerText');
     resetText = await resetInnerText.jsonValue();
     expect(resetText).toBe("Add to Cart");
-    /*
-    */
   }, 2500);
 
   // Check to make sure that after clicking "Add to Cart" on every <product-item> that the Cart
